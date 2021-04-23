@@ -1,0 +1,18 @@
+{
+  "name": "aws-cdk-scheduled-lambda",
+  "version": "1.0.0",
+  "description": "An AWS CDK Construct that sets up a scheduled Lambda function",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "aws-cdk"
+  ],
+  "author": "Benjamin Lannon <benjamin@lannonbr.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-cdk/aws-events": "^1.100.0",
+    "@aws-cdk/aws-events-targets": "^1.100.0",
+    "@aws-cdk/aws-lambda": "^1.100.0",
+    "@aws-cdk/core": "^1.100.0"
+  }
+}
