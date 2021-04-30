@@ -1,5 +1,5 @@
 {
-  "name": "aws-cdk-scheduled-lambda",
+  "name": "cdk-scheduled-lambda",
   "version": "1.0.0",
   "description": "An AWS CDK Construct that sets up a scheduled Lambda function",
   "main": "index.js",
@@ -14,5 +14,8 @@
     "@aws-cdk/aws-events-targets": "^1.100.0",
     "@aws-cdk/aws-lambda": "^1.100.0",
     "@aws-cdk/core": "^1.100.0"
+  },
+  "repository": {
+    "url": "https://github.com/lannonbr/aws-cdk-scheduled-lambda"
   }
 }

@@ -5,7 +5,7 @@ const targets = require("@aws-cdk/aws-events-targets");
 
 class ScheduledLambda extends Construct {
   /**
-   *
+   * A scheduled Lambda function
    * @param {Construct} scope
    * @param {String} id
    * @param {Object} opts - options
@@ -27,4 +27,4 @@ class ScheduledLambda extends Construct {
   }
 }
 
-export { ScheduledLambda };
+module.exports = { ScheduledLambda };

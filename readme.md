@@ -1,6 +1,14 @@
 # AWS CDK Scheduled Lambda
 
+[![NPM Link](https://img.shields.io/npm/v/cdk-github-stats-construct)](https://www.npmjs.com/package/cdk-scheduled-lambda)
+
 An AWS CDK Construct that wraps a Lambda function alongside an AWS Events Rule that is set up on a schedule.
+
+## Installation
+
+```shell
+npm install cdk-scheduled-lambda
+```
 
 ## Example:
 
